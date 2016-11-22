@@ -1,0 +1,106 @@
+.ui-numericinput
+{
+   display: inline-block;
+}
+
+.ui-numericinput ui-numericinput-disabled
+{
+   background-color:#e9e9e9; !important
+}
+
+.ui-numericinput div.ui-numericinput-inputs
+{
+    display:block; 
+    position:relative;
+    border:1px  #35a0d4 solid;
+    background-color:rgba(255,255,255,1);
+    vertical-align:middle;
+    font-family:Century Gothic;
+    font-family:Century-Gothic-anviants;
+    padding-right:2px;
+    padding-left:14px;
+}
+
+.ui-numericinput div.ui-numericinput-inputs input[type="text"]
+{
+    padding:0px;
+    padding-left:3px;
+    padding-right:3px; 
+    font-family:Century Gothic;
+    font-family:Century-Gothic-anviants;
+    border-style: none;
+    background-color:#e9e9e9;
+    margin:1px;
+    margin-top:3px;
+    margin-bottom:3px;
+    vertical-align:bottom;
+    height:23px;    
+}
+
+.ui-numericinput input:focus
+{
+    outline: 0;
+}
+
+.ui-numericinput input.ui-numericinput-integer-input
+{
+    width: 10px;
+    margin:0px;
+    color: Black;
+    font-size: 18px;
+}
+
+.ui-numericinput input.ui-numericinput-mills
+{
+    width: 10px;
+    color: Red;
+    font-size: 24px;
+}
+
+.ui-numericinput input.ui-numericinput-thous
+{
+    width: 10px;
+    color: Blue;
+    font-size: 18px;
+}
+
+.ui-numericinput input.ui-numericinput-hunds
+{
+    font-size: 14px;
+    color: Black;
+}
+
+.ui-numericinput input.ui-numericinput-mantisa-input
+{
+    font-size: 12px;
+    width: 8px;
+    border-style: none;
+    color: Green;
+    text-align: left;
+    margin:0px;
+}
+.ui-numericinput span.ui-numericinput-prefix
+{
+    display:block;
+    color:Black;  
+    position:absolute;
+    left:0px;
+    top:2px;
+    font-size:20px;    
+}
+.ui-numericinput span.ui-numericinput-groupseparator
+{
+    display:inline-block;
+    color:Black;
+    margin:0px;
+    margin-bottom:5px;
+    font-size:large;
+}
+.ui-numericinput span.ui-numericinput-decimalseparator
+{
+    display:inline-block;
+    color:Black;
+    margin:0px;
+    margin-bottom:5px;
+    font-size:large;
+}
