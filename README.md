@@ -7,7 +7,7 @@ To initialize the plugin just call .numput(options) in any input tag.
 
 $("#some-input").numput(options);
 
-![numput](https://github.com/raulbojalil/numput/blob/master/screenshoot.png?raw=true "numput")
+![numput](https://github.com/raulbojalil/numput/blob/master/screenshot.png?raw=true "numput")
 
 ##Options
 
